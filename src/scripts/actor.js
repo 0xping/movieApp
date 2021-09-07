@@ -52,7 +52,7 @@ const renderMovie = (movie, root) => {
       <div class="img">
       <img
         src="https://image.tmdb.org/t/p/w500${movie.poster_path}"
-      onerror='this.src="https://ativaembyplex.com/oxoo/app/src/main/res/drawable/poster_placeholder.png"'
+      onerror='this.src="https://critics.io/img/movies/poster-placeholder.png"'
 
       /></div>
       <div class="rate">

@@ -1,4 +1,4 @@
-![GIF of the Project](https://github.com/AhmedAF13/movieApp/blob/master/capture.gif)
+![GIF of the Project](https://github.com/AhmedAF13/movieApp/blob/main/capture.gif?raw=true)
 
 # 🎬🍿 Movies App
 > This is a  project created with the purpose of learning the fundamentals of javascript .
@@ -32,4 +32,4 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm run build`
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `dist` folder.<br />
