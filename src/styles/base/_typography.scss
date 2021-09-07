@@ -1,0 +1,45 @@
+@use '../abstracts' as *;
+@use '../vendors' as *;
+
+*{
+  font-family: $font-primary;
+}
+
+// text size
+h1 {
+  @include font-size(2rem);
+}
+
+h2 {
+  @include font-size(1.5rem);
+}
+
+h3 {
+  @include font-size(1.17rem);
+}
+
+h4 {
+  @include font-size(1rem);
+}
+
+small {
+  @include font-size(0.8rem);
+}
+
+p {
+  @include font-size(1rem);
+}
+/*
+
+a {
+  color: $color-link;
+  &:visited {
+    color: $color-link-visited;
+  }
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+*/

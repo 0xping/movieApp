@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="./assets/images/favicon/pngwing.com .png"
+      type="image/png"
+    />
+    <title>MovieApp</title>
+    <!--[if lt IE 9]>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+        integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA=="
+        crossorigin="anonymous"
+      ></script>
+    <![endif]-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
+      integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw=="
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/33af5ca1e3.js" defer></script>
+  </head>
+
+  <body>
+    <div class="loaderContainer">
+      <div class="loader">Loading...</div>
+    </div>
+    <nav class="nav">
+      <div class="container">
+        <a href="https://ahmed-movieapp.netlify.app">
+          <div class="logo">
+            <img src="./assets/images/favicon/pngwing.com .png" alt="" /></div
+        ></a>
+        <form class="search">
+          <input placeholder="Search" type="text" name="" id="" />
+          <button><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+    <div class="content container">
+      <aside>
+        <ul>
+          <li class="active">
+            <a href="https://ahmed-movieapp.netlify.app">
+              <i class="fas fa-home"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fas fa-film"></i> Movies </a>
+          </li>
+          <li>
+            <a href="#"> <i class="fas fa-video"></i> TVShows </a>
+          </li>
+        </ul>
+      </aside>
+      <header class="welcome">
+        <h1>welcome.</h1>
+        <p>Millions of movies, TV shows and actors to discover. Explore now.</p>
+      </header>
+      <section class="movieList" id="popularMovies">
+        <div class="head">
+          <h2>Popular Movies</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+
+      <section class="movieList" id="popularTV">
+        <div class="head">
+          <h2>Popular TV Shows</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+
+      <section class="movieList" id="comedyMovies">
+        <div class="head">
+          <h2>Comedy Movies</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+
+      <section class="movieList" id="fantasyMovies">
+        <div class="head">
+          <h2>Fantasy Movies</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+
+      <section class="movieList" id="animationMovies">
+        <div class="head">
+          <h2>Animation Movies</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+
+      <section class="movieList" id="romanceMovies">
+        <div class="head">
+          <h2>Romance Movies</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+
+      <section class="movieList" id="dramaMovies">
+        <div class="head">
+          <h2>Drama Movies</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+
+      <section class="movieList" id="horrorMovies">
+        <div class="head">
+          <h2>Horror Movies</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+
+      <section class="movieList" id="documentaryMovies">
+        <div class="head">
+          <h2>Documentary Movies</h2>
+          <div class="buttons">
+            <button class="btn-arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="btn-arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="movies"></div>
+      </section>
+    </div>
+  </body>
+</html>

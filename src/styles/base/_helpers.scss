@@ -1,0 +1,26 @@
+@use '../abstracts' as *;
+@use '../vendors' as *;
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  @include padding-left(1rem);
+  @include padding-right(1rem);
+  width: 100%;
+  @include mq( map-get($breakpoint,sm) ) {
+    padding: 0;
+    max-width: 540px;
+  }
+  @include mq(map-get($breakpoint,md)) {
+    max-width: 720px;
+  }
+  @include mq(map-get($breakpoint,lg)) {
+    max-width: 960px;
+  }
+  @include mq(map-get($breakpoint,xl)) {
+    max-width: 1140px;
+  }
+  @include mq(map-get($breakpoint,xxl)) {
+    max-width: 1320px;
+  }
+}

@@ -1,0 +1,54 @@
+@use '../base' as *;
+@use '../abstracts' as *;
+@use '../vendors' as *;
+
+nav {
+  border-bottom: 1px solid rgb(39, 39, 39);
+  background: $color-primary;
+  @include padding(.6rem 0);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 5;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      img {
+        width: 15%;
+        max-width: 110px;
+        min-width: 70px;
+      }
+    }
+    .search {
+      width: 55%;
+      position: relative;
+      max-width: 350px;
+      input {
+        @include font-size(1rem);
+        width: 100%;
+        outline: none;
+        border: none;
+        border: 1px solid rgb(39, 39, 39);
+        @include padding(8px 10px);
+        background: $color-bg;
+        color:#fff;
+      }
+      button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0rem;
+        padding: 8px 16px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: $color-primary;
+        color: #828282;
+        border: 1px solid rgb(39, 39, 39);
+        height: 100%;
+      }
+    }
+  }
+}

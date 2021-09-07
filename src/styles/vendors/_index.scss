@@ -1,0 +1,7 @@
+@charset "UTF-8";
+$rfs-breakpoint: 1440px; //the default is 1300
+$rfs-factor: 10; //the default is 10
+
+//import vendors
+@forward "../vendors/normalize";
+@forward "../vendors/rfs";
